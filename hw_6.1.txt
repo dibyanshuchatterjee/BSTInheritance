@@ -1,0 +1,6 @@
+The purpose of the program written is to implement a BST which behaves like a set and deals with null values and in addition is capable of handling Long, String and Integer type values.
+The class Node.java is designed to hold the tree elements and the information about the tree.
+The interface -> HelperInterface has the abstract classes which deals with addition, deletion and finding of the nodes of diffrent types.
+The class Properties.class merely sets few properties for it's child class (SortedStorageSetWithNulls) and makes it easier to understand the architecture of the code.
+The class SortedStorageSetWithNulls.java works on implementing the abstract methods defined in the interface, the class see's whether the data is String, Integer, Long type or even null, and if so, it adds it as needed.
+The Test class is the driver class, it has two methods, the main method sends three diffrent type of data and the testIt checks what kind of value is being received and passes it to a relevant function.
